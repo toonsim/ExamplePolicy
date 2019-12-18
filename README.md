@@ -4,7 +4,7 @@ Example policy for the policy verifier extension of ZAP
 
 # How to create your own Policy Rules
 1. Download the zap-2.9.0-SNAPSHOT.jar
-2. Create a new JAVA project and add this JAR as a dependency in your builder of choice, in the example project we use Gradle.
+2. Create a new JAVA project (or clone this one) and add this JAR as a dependency in your builder of choice, in the example project we use Gradle.
 3. In your default (!) package create a policy rule class which extends _org.zaproxy.zap.extension.policyrulescanner.PolicyRule_
 4. Create a constructor which takes a string argument:
 	```Java
