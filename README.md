@@ -21,4 +21,4 @@ Example policy for the policy verifier extension of ZAP
 	 You can change this method according to your desired rule functionality. The rules in this example project will give you an idea of which kind of rules you could design.
 6. Build a jar with your builder of choice. Be sure that only the rules are in the default package and that the content of our ZAP JAR is not present in your JAR.
 7. Start up our ZAP, go to Options -> Policy Jar Loader -> Add.. -> navigate to your built JAR.
-8. You can now check on violated rules at Options -> Flagged Rule Report, the name of your JAR will be used as the policy name and the name of the rules will correspond to their class names by default, you can override this by overriding resp. _getPolicyName()_ or _getName()_ in your rule classes.
+8. You can now check on violated rules at Options -> Flagged Rule Report. Note: the name of your JAR will be used as the policy name and the name of the rules will correspond to their class names by default, you can override this by overriding resp. _getPolicyName()_ or _getName()_ in your rule classes.
